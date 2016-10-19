@@ -12,7 +12,7 @@ public class Application extends javax.ws.rs.core.Application {
 	@Override
 	public Set<Class<?>> getClasses() {
 		return Sets.newHashSet( //
-				AboutService.class);
+				AboutService.class, CalculationService.class);
 	}
 
 }
